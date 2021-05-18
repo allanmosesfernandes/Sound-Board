@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+
+
+        <h1>Sound board!!!</h1>
+
+        <div class="sound-board">
+            <button class="btn" id="meow" data-key="65">A<br>🐱</button>
+            <button class="btn" id="applause" data-key="83">S <br>🙌</button>
+            <button class="btn" id="tanoy" data-key="68">D <br>📣</button>
+            <button class="btn" id="alarm" data-key="70"> F <br>⏰</button>
+            <button class="btn" id="alien" data-key="71">G <br>👽</button>
+            <button class="btn" id="smash" data-key="72">H<br>🍸</button>
+            <button class="btn" id="boom" data-key="74">J<br>🥁</button>
+            <button class="btn" id="clap" data-key="75">K<br>👏</button>
+            <button class="btn" id="ride" data-key="76">L<br>🚨</button>
+        </div>
+
+
+
+        <audio src='./sounds/meow.mp3' data-key='65'></audio>
+        <audio src='./sounds/applause.mp3' data-key='83'></audio>
+        <audio src='./sounds/tanoy.mp3' data-key='68'></audio>
+        <audio src='./sounds/alarm.mp3' data-key='70'></audio>
+        <audio src='./sounds/alien.mp3' data-key='71'></audio>
+        <audio src='./sounds/smash.mp3' data-key='72'></audio>
+        <audio src='./sounds/boom.mp3' data-key='74'></audio>
+        <audio src='./sounds/clap.mp3' data-key='75'></audio>
+        <audio src='./sounds/ride.mp3' data-key='76'></audio>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
